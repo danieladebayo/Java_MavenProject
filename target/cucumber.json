@@ -1,0 +1,1622 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "As a user I want to login, search for dress, pay and confirm my order",
+        "description": "",
+        "id": "user-checkout-test;as-a-user-i-want-to-login,-search-for-dress,-pay-and-confirm-my-order;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11538436400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1737405200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715381600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the email \"lyricalwhiz@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lyricalwhiz@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153272100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the password \"Automation_Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation_Testing",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4650070500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1459156500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for dress",
+            "match": {
+              "location": "Steps_Glue.i_search_for_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2271493400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select dress from the list",
+            "match": {
+              "location": "Steps_Glue.i_select_dress_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656634800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I chose quantity, size and color required",
+            "match": {
+              "location": "Steps_Glue.i_chose_quantity_size_and_color_required()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125780200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add items to cart",
+            "match": {
+              "location": "Steps_Glue.i_add_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2780166400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click proceed to checkout",
+            "match": {
+              "location": "Steps_Glue.i_click_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784539300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I viewed items summary and click proceed to checkout",
+            "match": {
+              "location": "Steps_Glue.i_viewed_items_summary_and_click_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478561100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I viewed billing, shipping adresses and click proceed to checkout",
+            "match": {
+              "location": "Steps_Glue.i_viewed_billing_shipping_adresses_and_click_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1728713600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I checked box to accept terms of services and click proceed to checkout",
+            "match": {
+              "location": "Steps_Glue.i_checked_box_to_accept_terms_of_services_and_click_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1388420100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I chose Check as mode of payment",
+            "match": {
+              "location": "Steps_Glue.i_chose_Check_as_mode_of_payment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2484682400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click confirm order",
+            "match": {
+              "location": "Steps_Glue.i_click_confirm_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58256800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify that the account name \"Daniel Adebayo\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daniel Adebayo",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5007184800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145160300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Checkout Test",
+    "description": "",
+    "id": "user-checkout-test",
+    "keyword": "Feature",
+    "uri": "UserCheckout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "As a user I want to check all my order history",
+        "description": "",
+        "id": "order-history-test;as-a-user-i-want-to-check-all-my-order-history;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8030933100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1493145800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653810300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the email \"lyricalwhiz@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lyricalwhiz@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155914800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the password \"Automation_Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation_Testing",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054488200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1533952400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on my ORDER HISTORY AND DETAILS",
+            "match": {
+              "location": "Steps_Glue.i_click_on_my_ORDER_HISTORY_AND_DETAILS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139711800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I assert text on all orders placed since account creation",
+            "match": {
+              "location": "Steps_Glue.i_assert_text_on_all_orders_placed_since_account_creation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696822600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I take a screenshot",
+            "match": {
+              "location": "Steps_Glue.i_take_a_screenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215365400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on my first order to see the details",
+            "match": {
+              "location": "Steps_Glue.i_click_on_my_first_order_to_see_the_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045309800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I confirm the order refference and date placed",
+            "match": {
+              "location": "Steps_Glue.i_confirm_the_order_refference_and_date_placed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297208900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "# And I click on my latest order to see the details"
+              },
+              {
+                "line": 15,
+                "value": "# And I affirm the order refference and date it was placed"
+              }
+            ],
+            "line": 16,
+            "name": "I click on the Product tab so as to select the item size and colour",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_Product_tab_so_as_to_select_the_item_size_and_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402819700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Added a message into the info box provided",
+            "match": {
+              "location": "Steps_Glue.i_Added_a_message_into_the_info_box_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40867200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify that the account name \"Daniel Adebayo\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daniel Adebayo",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65443100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Send",
+            "match": {
+              "location": "Steps_Glue.i_click_Send()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order History Test",
+    "description": "",
+    "id": "order-history-test",
+    "keyword": "Feature",
+    "uri": "UserorderHistory.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "As a user I would like to contact customer service",
+        "description": "",
+        "id": "contact-carguruji-test;as-a-user-i-would-like-to-contact-customer-service;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7541447900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1878023700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 576992200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the email \"lyricalwhiz@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lyricalwhiz@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153061800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the password \"Automation_Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation_Testing",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2090066600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1693849900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Contact us button",
+            "match": {
+              "location": "Steps_Glue.i_click_the_Contact_us_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184179400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click in the Subject Heading tab to select Customer service from the drop down menu",
+            "match": {
+              "location": "Steps_Glue.i_click_in_the_Subject_Heading_tab_to_select_Customer_service_from_the_drop_down_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140253600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the Order reference tab to select my latest order from the list",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_Order_reference_tab_to_select_my_latest_order_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153322200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Product tab to select the item size and colour",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_Product_tab_to_select_the_item_size_and_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265877300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I wrote inside the message box provide",
+            "match": {
+              "location": "Steps_Glue.i_wrote_inside_the_message_box_provide()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38638700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify that the account name \"Daniel Adebayo\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daniel Adebayo",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4276614200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Send button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_Send_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Carguruji Test",
+    "description": "",
+    "id": "contact-carguruji-test",
+    "keyword": "Feature",
+    "uri": "contactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "As a user I would like to retrieve my password",
+        "description": "",
+        "id": "forgot-password-test;as-a-user-i-would-like-to-retrieve-my-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9448466000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1825822400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1335643700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on forgot password link",
+            "match": {
+              "location": "Steps_Glue.i_click_on_forgot_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234821400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the email \"lukebible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lukebible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1248822100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Retrieve Password button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_Retrieve_Password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87168700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify the given message",
+            "match": {
+              "location": "Steps_Glue.i_Verify_the_given_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password Test",
+    "description": "",
+    "id": "forgot-password-test",
+    "keyword": "Feature",
+    "uri": "forgotPassword.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "I would like to sign in using multiple users",
+        "description": "",
+        "id": "multiple-user-login-test;i-would-like-to-sign-in-using-multiple-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7978357200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1717983200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629773400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the email \"lyricalwhiz@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lyricalwhiz@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266817500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the password \"Automation_Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation_Testing",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1792044300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35499700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"Daniel Adebayo\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daniel Adebayo",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4489436800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145985000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "I would like to sign in using multiple users",
+        "description": "",
+        "id": "multiple-user-login-test;i-would-like-to-sign-in-using-multiple-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7313367500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1903712100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773980700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the email \"mathewbible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mathewbible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118870900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the password \"InteliJ1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InteliJ1",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1800826200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34149700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"Mathew Bible\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew Bible",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4089378700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160463500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "I would like to sign in using multiple users",
+        "description": "",
+        "id": "multiple-user-login-test;i-would-like-to-sign-in-using-multiple-users;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7234841000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1516429600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635635800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the email \"markbible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "markbible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160718200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the password \"InteliJ2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InteliJ2",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152084500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38765200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"Mark Bible\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark Bible",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4140208100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129285600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "I would like to sign in using multiple users",
+        "description": "",
+        "id": "multiple-user-login-test;i-would-like-to-sign-in-using-multiple-users;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7326806600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338607900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 750232200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the email \"lukebible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lukebible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116715200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the password \"InteliJ3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InteliJ3",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2402107300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38521000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"Luke Bible\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke Bible",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4255569500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119301900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "I would like to sign in using multiple users",
+        "description": "",
+        "id": "multiple-user-login-test;i-would-like-to-sign-in-using-multiple-users;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7412713300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309560300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 671943000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the email \"johnbible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnbible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107704500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the password \"InteliJ4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InteliJ4",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065322300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39670200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"John Bible\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Bible",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4241857100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140633000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multiple User Login Test",
+    "description": "",
+    "id": "multiple-user-login-test",
+    "keyword": "Feature",
+    "uri": "multipleUserLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "As a user I want to check if i have credit slips",
+        "description": "",
+        "id": "my-credit-slips-test;as-a-user-i-want-to-check-if-i-have-credit-slips;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7733640900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "Steps_Glue.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1722624600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635639800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the email \"markbible@mail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "markbible@mail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206743000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the password \"InteliJ2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InteliJ2",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps_Glue.i_enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3390005100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126776600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the MY CREDIT SLIPS button",
+            "match": {
+              "location": "Steps_Glue.i_click_on_the_MY_CREDIT_SLIPS_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130939200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cYou have not [received any credit slip]s.\u003e but was:\u003cYou have not [placed any order]s.\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.flow.gameFlow.Steps_Glue.i_verify_the_message_within_and_take_a_screen_shot(Steps_Glue.java:240)\r\n\tat ✽.Then I verify the message within and take a screen shot(myCreditSlips.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify the message within and take a screen shot",
+            "match": {
+              "location": "Steps_Glue.i_verify_the_message_within_and_take_a_screen_shot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I verify that the account name \"Mark Bible\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark Bible",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps_Glue.i_verify_that_the_account_name_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I sign out user",
+            "match": {
+              "location": "Steps_Glue.i_sign_out_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I close down the browser",
+            "match": {
+              "location": "Steps_Glue.i_close_down_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Credit Slips Test",
+    "description": "",
+    "id": "my-credit-slips-test",
+    "keyword": "Feature",
+    "uri": "myCreditSlips.feature"
+  }
+]

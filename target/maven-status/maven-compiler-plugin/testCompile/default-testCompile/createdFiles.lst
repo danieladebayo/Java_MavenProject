@@ -1,0 +1,8 @@
+_Pages\HomePage.class
+_Pages\CommonPage.class
+com\flow\gameFlow\Steps_Glue.class
+_Pages\MyAccountPage.class
+_Pages\RegisterPage.class
+_Pages\WomenPage.class
+com\flow\gameFlow\RunnerTest.class
+_Pages\LoginPage.class

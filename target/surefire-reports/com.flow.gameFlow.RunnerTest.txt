@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.flow.gameFlow.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 110, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 188.173 sec <<< FAILURE! - in com.flow.gameFlow.RunnerTest
+Then I verify the message within and take a screen shot(| markbible@mail.com | InteliJ2 | Mark Bible |)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<You have not [received any credit slip]s.> but was:<You have not [placed any order]s.>
+
+| markbible@mail.com | InteliJ2 | Mark Bible |  Time elapsed: 0.016 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<You have not [received any credit slip]s.> but was:<You have not [placed any order]s.>
+

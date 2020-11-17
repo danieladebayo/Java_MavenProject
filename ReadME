@@ -1,0 +1,9 @@
+******Things to consider******
+
+Download chrome driver
+Download Selenium
+Create Maven Project
+Download dependencies from selected IDE
+Define user paths
+If using Mac change to /
+If Test fails on your local then tweak testBase

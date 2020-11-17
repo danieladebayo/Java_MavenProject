@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Rainbow</td>
+                          <td>1</td>
+                        <td>29 May 2020, 13:29</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Steps_Glue.i_Added_a_message_into_the_info_box_provided()</td>
+                <td>1</td>
+                <td class="duration" data-value="402819700">402ms</td>
+                <td class="duration" data-value="402819700">402ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_Verify_the_given_message()</td>
+                <td>1</td>
+                <td class="duration" data-value="87168700">087ms</td>
+                <td class="duration" data-value="87168700">087ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_add_items_to_cart()</td>
+                <td>1</td>
+                <td class="duration" data-value="125780200">125ms</td>
+                <td class="duration" data-value="125780200">125ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_assert_text_on_all_orders_placed_since_account_creation()</td>
+                <td>1</td>
+                <td class="duration" data-value="139711800">139ms</td>
+                <td class="duration" data-value="139711800">139ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_checked_box_to_accept_terms_of_services_and_click_proceed_to_checkout()</td>
+                <td>1</td>
+                <td class="duration" data-value="1728713600">1s 728ms</td>
+                <td class="duration" data-value="1728713600">1s 728ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_chose_Check_as_mode_of_payment()</td>
+                <td>1</td>
+                <td class="duration" data-value="1388420100">1s 388ms</td>
+                <td class="duration" data-value="1388420100">1s 388ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_chose_quantity_size_and_color_required()</td>
+                <td>1</td>
+                <td class="duration" data-value="656634800">656ms</td>
+                <td class="duration" data-value="656634800">656ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_Send()</td>
+                <td>1</td>
+                <td class="duration" data-value="65443100">065ms</td>
+                <td class="duration" data-value="65443100">065ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_confirm_order()</td>
+                <td>1</td>
+                <td class="duration" data-value="2484682400">2s 484ms</td>
+                <td class="duration" data-value="2484682400">2s 484ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_in_the_Subject_Heading_tab_to_select_Customer_service_from_the_drop_down_menu()</td>
+                <td>1</td>
+                <td class="duration" data-value="184179400">184ms</td>
+                <td class="duration" data-value="184179400">184ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_Retrieve_Password_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="1248822100">1s 248ms</td>
+                <td class="duration" data-value="1248822100">1s 248ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_forgot_password_link()</td>
+                <td>1</td>
+                <td class="duration" data-value="1335643700">1s 335ms</td>
+                <td class="duration" data-value="1335643700">1s 335ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_my_ORDER_HISTORY_AND_DETAILS()</td>
+                <td>1</td>
+                <td class="duration" data-value="1533952400">1s 533ms</td>
+                <td class="duration" data-value="1533952400">1s 533ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_my_first_order_to_see_the_details()</td>
+                <td>1</td>
+                <td class="duration" data-value="215365400">215ms</td>
+                <td class="duration" data-value="215365400">215ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_MY_CREDIT_SLIPS_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="2126776600">2s 126ms</td>
+                <td class="duration" data-value="2126776600">2s 126ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_Order_reference_tab_to_select_my_latest_order_from_the_list()</td>
+                <td>1</td>
+                <td class="duration" data-value="140253600">140ms</td>
+                <td class="duration" data-value="140253600">140ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_Product_tab_so_as_to_select_the_item_size_and_colour()</td>
+                <td>1</td>
+                <td class="duration" data-value="297208900">297ms</td>
+                <td class="duration" data-value="297208900">297ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_Product_tab_to_select_the_item_size_and_colour()</td>
+                <td>1</td>
+                <td class="duration" data-value="153322200">153ms</td>
+                <td class="duration" data-value="153322200">153ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_Send_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="4276614200">4s 276ms</td>
+                <td class="duration" data-value="4276614200">4s 276ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_login_button()</td>
+                <td>9</td>
+                <td class="duration" data-value="22397015000">22s 397ms</td>
+                <td class="duration" data-value="2488557222">2s 488ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_on_the_sign_in_button()</td>
+                <td>10</td>
+                <td class="duration" data-value="16443314800">16s 443ms</td>
+                <td class="duration" data-value="1644331480">1s 644ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_proceed_to_checkout()</td>
+                <td>1</td>
+                <td class="duration" data-value="2780166400">2s 780ms</td>
+                <td class="duration" data-value="2780166400">2s 780ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_click_the_Contact_us_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="1693849900">1s 693ms</td>
+                <td class="duration" data-value="1693849900">1s 693ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_close_down_the_browser()</td>
+                <td>7</td>
+                <td class="duration" data-value="840829300">840ms</td>
+                <td class="duration" data-value="120118471">120ms</td>
+                <td class="failed">85.71%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_confirm_the_order_refference_and_date_placed()</td>
+                <td>1</td>
+                <td class="duration" data-value="1045309800">1s 045ms</td>
+                <td class="duration" data-value="1045309800">1s 045ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_enter_the_email_address(String)</td>
+                <td>10</td>
+                <td class="duration" data-value="6278210400">6s 278ms</td>
+                <td class="duration" data-value="627821040">627ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_enter_the_password(String)</td>
+                <td>9</td>
+                <td class="duration" data-value="1439818000">1s 439ms</td>
+                <td class="duration" data-value="159979777">159ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_search_for_dress()</td>
+                <td>1</td>
+                <td class="duration" data-value="1459156500">1s 459ms</td>
+                <td class="duration" data-value="1459156500">1s 459ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_select_dress_from_the_list()</td>
+                <td>1</td>
+                <td class="duration" data-value="2271493400">2s 271ms</td>
+                <td class="duration" data-value="2271493400">2s 271ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_sign_out_user()</td>
+                <td>7</td>
+                <td class="duration" data-value="26223635000">26s 223ms</td>
+                <td class="duration" data-value="3746233571">3s 746ms</td>
+                <td class="failed">85.71%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_take_a_screenshot()</td>
+                <td>1</td>
+                <td class="duration" data-value="696822600">696ms</td>
+                <td class="duration" data-value="696822600">696ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_verify_that_the_account_name_is_displayed(String)</td>
+                <td>9</td>
+                <td class="duration" data-value="324368500">324ms</td>
+                <td class="duration" data-value="36040944">036ms</td>
+                <td class="failed">88.89%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_verify_the_message_within_and_take_a_screen_shot()</td>
+                <td>1</td>
+                <td class="duration" data-value="130939200">130ms</td>
+                <td class="duration" data-value="130939200">130ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_viewed_billing_shipping_adresses_and_click_proceed_to_checkout()</td>
+                <td>1</td>
+                <td class="duration" data-value="1478561100">1s 478ms</td>
+                <td class="duration" data-value="1478561100">1s 478ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_viewed_items_summary_and_click_proceed_to_checkout()</td>
+                <td>1</td>
+                <td class="duration" data-value="1784539300">1s 784ms</td>
+                <td class="duration" data-value="1784539300">1s 784ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.i_wrote_inside_the_message_box_provide()</td>
+                <td>1</td>
+                <td class="duration" data-value="265877300">265ms</td>
+                <td class="duration" data-value="265877300">265ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Steps_Glue.user_is_on_the_homepage()</td>
+                <td>10</td>
+                <td class="duration" data-value="81559009900">1m 21s 559ms</td>
+                <td class="duration" data-value="8155900990">8s 155ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>37</td>
+              <td>100</td>
+              <td class="duration">3m 7s 704ms</td>
+              <td class="duration">1s 877ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
